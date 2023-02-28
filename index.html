@@ -2,10 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sung Timber & Products</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,900;1,100;1,700&display=swap" rel="stylesheet">
-    
+   <link href= "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" rel="stylesheet">
   </head>
   <body>
     <div class="header">
@@ -15,7 +16,7 @@
           <img src="images/logo.png" width="125px" />
         </div>
         <nav>
-          <ul>
+          <ul id="menuitems">
             <li><a href="">Home</a></li>
             <li><a href="">Products</a></li>
             <li><a href="">About</a></li>
@@ -24,11 +25,14 @@
           </ul>
         </nav>
         <img src="images/cart png.png" width="30px" height="30px">
+        <img src="images/menu_icon_icon-removebg-preview.png" class="menu-icon"
+         onclick="menutoggle()">
       </div>
     <div class="row">
       <div class="col-2"> 
         <h1> Dealer in Timber & Hardware Products</h1>
         <p> We are located in Kikuyu Opposite Lexo Petrol Station</p>
+        <small>High-quality timber for all your construction needs. Our sustainably-sourced timber is available in a different of sizes and types, and is perfect for building, renovation, or DIY projects. Contact us today for affordable pricing and fast pay-on delivery.</small>
         <a href="" class="btn"> SHOP NOW &#8594;</a>
       </div>
       <div class="col-2">
@@ -71,8 +75,134 @@
             <h4> CYPRESS</h4>
             <p> KSH X </p>
           </div>
+          <div class="col-4">
+            <img src="images/20230214131541_IMG_7259.jpg">
+            <h4> CYPRESS</h4>
+            <p> KSH X </p>
+          </div>
+          <div class="col-4">
+            <img src="images/20230214131541_IMG_7259.jpg">
+            <h4> CYPRESS</h4>
+            <p> KSH X </p>
+          </div>
+          <div class="col-4">
+            <img src="images/20230214131541_IMG_7259.jpg">
+            <h4> CYPRESS</h4>
+            <p> KSH X </p>
+          </div>
+          <div class="col-4">
+            <img src="images/20230214131541_IMG_7259.jpg">
+            <h4> CYPRESS</h4>
+            <p> KSH X </p>
+          </div>
         </div>
+<!------ OFFER ------>
+<div class="offer">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-2">
+        <img src="images/post 3.jpg" class="offer-img">
+      </div>
+      <div class="col-2">
+        <p> Exclusively Available on Sung Timber</p>
+        <h1> Treated and Untreated Posts</h1>
+        <small>Fencing posts are strong supports that hold fencing materials in place. They come in different materials, sizes, and shapes, and are crucial for creating a stable and long-lasting fence</small>
+        <a href="" class="btn"> BUY NOW &#8594;</a>
       </div>
     </div>
+  </div>
+</div>
+<!------ TESTIMONIALS ---->
+<div class="testimonial">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+       <i class="fa fa-quote-left"></i>
+          <p>I recently purchased timber from this Sung Timber and I couldn't be happier with the quality of the product and the service provided. The timber was sustainably sourced and of excellent quality, making it perfect for my construction project. The pricing was also very competitive and the delivery was fast and efficient. I highly recommend this supplier to anyone looking for high-quality timber and excellent customer service.</p>
+       <div class="rating">
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-o"></i> 
+      </div>
+      <img src="images/defsvg.jpg">
+      <h3>Lewis Njeruh</h3>
+     </div>
+     <div class="col-3">
+      <i class="fa fa-quote-left"></i>
+      <p>"I recently purchased timber from this Sung Timber and I couldn't be happier with the quality of the product and the service provided. The timber was sustainably sourced and of excellent quality, making it perfect for my construction project. The pricing was also very competitive and the delivery was fast and efficient. I highly recommend this supplier to anyone looking for high-quality timber and excellent customer service.</p>
+      <div class="rating">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star-o"></i> 
+    </div>
+    <img src="images/defsvg.jpg">
+    <h3>Lewis Njeruh</h3>
+   </div>
+   <div class="col-3">
+    <i class="fa fa-quote-left"></i>
+    <p>"I recently purchased timber from this Sung Timber and I couldn't be happier with the quality of the product and the service provided. The timber was sustainably sourced and of excellent quality, making it perfect for my construction project. The pricing was also very competitive and the delivery was fast and efficient. I highly recommend this supplier to anyone looking for high-quality timber and excellent customer service.</p>
+    <div class="rating">
+   <i class="fa fa-star"></i>
+   <i class="fa fa-star"></i>
+   <i class="fa fa-star"></i>
+   <i class="fa fa-star"></i>
+   <i class="fa fa-star-o"></i> 
+  </div>
+  <img src="images/defsvg.jpg">
+  <h3>Lewis Njeruh</h3>
+ </div>
+    </div>
+  </div>
+</div>
+
+  <!-----footer ---->
+  <div class="footer">
+   <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3> Our Products </h3>
+        <p> LEARN MORE</p>
+      </div>
+      <div class="footer-col-2">
+        <img src="images/logo.png">
+        <p>Dealer in Timber and Hardware Products</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>FOLLOW US</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>Tiktok</li>
+          <li>Youtube</li>
+        </ul>
+      </div>
+      <hr>
+      <p class="copyright"> Copyright 2023 - Sung Timber & Products</p>
+      </div>
+    </div>
+   </div>
+
+   <!--------js for toggle menu----->
+ <script>
+     var menuitems = document.getElementById("menuitems");
+
+    menuitems.style.maxHeight = "0px";
+
+     function menutoggle(){
+      if(menuitems.style.maxHeight == "0px")
+      {
+        menuitems.style.maxHeight = "200px";
+      }
+      else
+      {
+        menuitems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+
   </body>
 </html>
